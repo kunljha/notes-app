@@ -1,3 +1,7 @@
-import { getNotes } from './edit'
+import { getNotes, createNote, removeNote } from './notes'
+import { getFilters, setFilters } from './filters'
+// console.log(getNotes()) // just for testing the configuration setup of babel and webpack
+// createNote()
 
-console.log(getNotes()) // just for testing the configuration setup of babel and webpack
+// removeNote('5')
+// console.log(getNotes())
