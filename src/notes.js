@@ -31,6 +31,8 @@ const createNote = () => {
 		body: '',
 	})
 	saveNotes()
+
+	return id
 }
 
 // Removing a note from notes array
@@ -98,6 +100,7 @@ const updateNote = (id, updates) => {
 	}
 
 	saveNotes()
+	return note
 }
 
 notes = loadNotes()
